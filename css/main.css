@@ -112,14 +112,15 @@ textarea {
    }
 
    article {
-     border-width: thin;
+     border-width: thick;
      border-color: #6E6E6E;
      border-style: solid;
      height: auto;
-     width: 30rem;
+     width: 20rem;
+     border-radius:25px;
      background-color: #F79F81;
      margin-top: 1.4rem;
-     margin-left: 15%;
+     display: inline-block;
    }
 
    #strikethrough {
@@ -138,6 +139,15 @@ textarea {
      color: green;
    }
 
+
+
+.flexContainer{
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
 
 
 
