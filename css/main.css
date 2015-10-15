@@ -112,7 +112,7 @@ textarea {
    }
 
    article {
-     border-width: thick;
+     border-width: thin;
      border-color: #6E6E6E;
      border-style: solid;
      height: auto;
@@ -149,6 +149,44 @@ textarea {
 
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topright{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right:2%;
+}
+.jump {
+  display: inline-block;
+margin-left: 2%;
+padding: 2%,2%,2%,2%;
+
+
+}
+.fun{
+
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+header{
+  position:fixed;
+  width:100%;
+  z-index: 10000;
+}
+section {
+  padding-top:10%;
+}
 
 
 
