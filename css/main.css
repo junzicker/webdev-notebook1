@@ -9,7 +9,17 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   /*
 
+   primary color - #ba9077
+
+   text color - #5a5c51
+
+   background color - #bcd5d1
+
+   accent color - #1d2120
+
+   */
 html {
     color: #222;
     font-size: 1em;
@@ -94,13 +104,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   body {
-     background-color: #FFFFF7;
-     color: #333333;
+    body {
+     background-color: #bcd5d1;
+     color: #5a5c51;
+     font-family: Garamond;
    }
 
    h2 {
      font-size: 2rem;
+     color: #1d2120;
    }
 
    h3 {
@@ -118,7 +130,7 @@ textarea {
      height: auto;
      width: 20rem;
      border-radius:25px;
-     background-color: #F79F81;
+     background-color: #ba9077;
      margin-top: 1.4rem;
      display: inline-block;
    }
@@ -199,8 +211,18 @@ header{
   width:100%;
   z-index:10000;
 }
-a{
+a:link{
   text-decoration: none;
+  color: #1d2120;
+}
+a:visited{
+  text-decoration:none;
+  color: #5a5c51;
+}
+
+a:hover{
+  text-decoration:none;
+  color: #5a5c51;
 }
 section{
   padding-top:10%;
@@ -220,7 +242,9 @@ section{
 >>>>>>> master
 
 }
-
+h1{
+  color:#1d2120;
+}
 
 
 
