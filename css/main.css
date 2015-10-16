@@ -204,6 +204,8 @@ header{
   position:fixed;
   width:100%;
   z-index:10000;
+  background-color: #ba9077;
+
 }
 a:link{
   text-decoration: none;
