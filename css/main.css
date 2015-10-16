@@ -161,18 +161,40 @@ textarea {
 
 }
 
-footer{
-  display: flex;
-  justify-content :center;
-  align-items: center;
+
+.topright{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right:2%;
+}
+.jump {
+  display: inline-block;
+  padding-left: 10%;
+
+}
+
+
+a {
+  text-decoration: none;
 }
 header{
   position:fixed;
   width:100%;
-  z-index:10000;
+  z-index: 10000;
   background-color: #ba9077;
-
 }
+section {
+  padding-top:10%;
+}
+
+footer{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
 a:link{
   text-decoration: none;
   color: #1d2120;
@@ -189,17 +211,8 @@ a:hover{
 section{
   padding-top:10%;
 }
-.topright{
-  position:absolute;
-  top: 0;
-  right: 0;
-}
 
-.jump{
-  display:inline-block;
-  padding-left: 10%;
 
-}
 h1{
   color:#1d2120;
 }
