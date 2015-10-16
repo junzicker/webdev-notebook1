@@ -179,15 +179,8 @@ footer {
 margin-left: 2%;
 padding: 2%,2%,2%,2%;
 
-
 }
-.fun{
 
-  border-width: thin;
-  border-color: black;
-  border-style: solid;
-  width:100%;
-}
 
 a {
   text-decoration: none;
@@ -196,6 +189,7 @@ header{
   position:fixed;
   width:100%;
   z-index: 10000;
+  background-color: #ba9077;
 }
 section {
   padding-top:10%;
@@ -232,10 +226,7 @@ section{
   top: 0;
   right: 0;
 }
-.fun{
-  border-width:thin;
-  border-style:solid;
-}
+
 .jump{
   display:inline-block;
   padding-left: 10%;
