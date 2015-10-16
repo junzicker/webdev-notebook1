@@ -162,11 +162,14 @@ textarea {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+=======
+>>>>>>> master
 
 .topright{
   position: absolute;
@@ -176,14 +179,19 @@ footer {
 }
 .jump {
   display: inline-block;
+<<<<<<< HEAD
 margin-left: 2%;
 padding: 2%,2%,2%,2%;
+=======
+  padding-left: 10%;
+>>>>>>> master
 
 }
 
 
 a {
   text-decoration: none;
+<<<<<<< HEAD
 }
 header{
   position:fixed;
@@ -199,14 +207,26 @@ footer{
   display: flex;
   justify-content :center;
   align-items: center;
+=======
+>>>>>>> master
 }
 header{
   position:fixed;
   width:100%;
-  z-index:10000;
+  z-index: 10000;
   background-color: #ba9077;
-
 }
+section {
+  padding-top:10%;
+}
+
+footer{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+
 a:link{
   text-decoration: none;
   color: #1d2120;
@@ -223,18 +243,15 @@ a:hover{
 section{
   padding-top:10%;
 }
-.topright{
-  position:absolute;
-  top: 0;
-  right: 0;
-}
 
+<<<<<<< HEAD
 .jump{
   display:inline-block;
   padding-left: 10%;
 >>>>>>> master
+=======
+>>>>>>> master
 
-}
 h1{
   color:#1d2120;
 }
